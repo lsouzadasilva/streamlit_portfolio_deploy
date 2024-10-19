@@ -5,10 +5,10 @@ credentials:
       logged_in: False
       name: Leandro Souza
       password: abcd1234
-    randrade:
+    test:
       email: testando1@gmail.com
       logged_in: False
-      name: Raquel Barreto
+      name: test
       password: abcd1234
 cookie:
   expiry_days: 1
