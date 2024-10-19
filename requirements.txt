@@ -1,4 +1,4 @@
 streamlit
-yaml
+PyYAML
 streamlit_authenticator
 openai
