@@ -2,7 +2,7 @@ import streamlit as st
 
 def bi():
 
-    st.markdown("# Power BI 📊")
+    st.markdown("# Relatórios 📊")
 
     image_path_adiante = "image/adiante.png"
     image_path_mb = "image/MB.png"
