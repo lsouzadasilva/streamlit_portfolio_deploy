@@ -65,7 +65,7 @@ def bi():
     with col6:
         st.image(image_path_byd, caption="BYD", width=200)
         st.link_button("Acesse",
-                    "https://app.powerbi.com/reportEmbed?reportId=700f71cc-94a9-47fc-9840-e5e499ab0667&autoAuth=true&ctid=1f301de5-d58a-442c-a282-80a1a993f044")
+                    "https://app.powerbi.com/view?r=eyJrIjoiYTM0OTUwMGYtMmJjYS00ZTVhLTlkMTktMTQzYzQzM2VmN2I3IiwidCI6IjFmMzAxZGU1LWQ1OGEtNDQyYy1hMjgyLTgwYTFhOTkzZjA0NCJ9")
         
     with col7:
         st.image(image_path_localiza, caption="Localiza Caminhões Usados", width=200)
