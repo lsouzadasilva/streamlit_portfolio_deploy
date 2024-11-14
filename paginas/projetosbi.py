@@ -38,7 +38,7 @@ def bi():
     with col2:
         st.image(image_path_mb, caption="Mercedes Benz", width=200)
         st.link_button("Acesse",
-                    "https://app.powerbi.com/reportEmbed?reportId=67a92227-ba38-49b0-b653-c5b7f279d3c7&autoAuth=true&ctid=1f301de5-d58a-442c-a282-80a1a993f044")
+                    "https://app.powerbi.com/reportEmbed?reportId=8a90ede4-e194-4dd6-8166-ee6ed6dfe13e&autoAuth=true&ctid=1f301de5-d58a-442c-a282-80a1a993f044")
 
     with col3:
         st.image(image_path_lm, caption="LM Transportes", width=200)
