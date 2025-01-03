@@ -22,9 +22,18 @@ def pagina_inicial():
 
     st.markdown(
         """ 
-        Tenho experiência em criar soluções inovadoras que transformam processos logísticos e análises de dados. Na Mobly, desenvolvi ideias que otimizaram processos de inventário e controle de estoque. Na Indecx, fui responsável pela criação de relatórios e análises detalhadas baseadas em dados mercadológicos de veículos comerciais e leves para empresas como Localiza, Mercedes-Benz, Movida, Unidas, LM Transportes, VW, BYD e Addiante, além de desenvolver métricas de NPS e CSAT para o Tribanco.
+        Especialista em Análise de Dados e Soluções Logísticas.
+        Tenho sólida experiência em transformar dados em insights estratégicos e criar soluções que otimizam processos logísticos e análises de dados. Na Mobly, desenvolvi e implementei melhorias nos processos de inventário e controle de estoque, resultando em maior eficiência operacional. Já na Indecx, criei relatórios detalhados e análises mercadológicas de veículos comerciais e leves para clientes como Localiza, Mercedes-Benz, Movida,Unidas, LM Transportes, VW, BYD, Addiante Locação e outros, além de estruturar métricas de NPS e CSAT para o Tribanco, impulsionando decisões baseadas em dados.
 
-        Atualmente, trabalho na Hagens, onde sou responsável pela coleta, análise e geração de insights por meio de relatórios utilizando Power BI, com foco no Grupo Zelo. Minha trajetória profissional inclui a implementação de soluções logísticas eficientes e a transformação de dados complexos em insights acionáveis, impulsionando a eficiência operacional.
+        Atualmente, atuo na Hagens, onde sou responsável pela coleta, análise e visualização de dados, utilizando ferramentas como Power BI e Looker, gerando insights acionáveis que suportam decisões estratégicas.
 
-        Possuo também conhecimento em Python, com habilidades em técnicas CRUD para gestão e manipulação de dados, além de experiência na criação de bots de automação para otimizar diversos processos.""")
+        Minhas habilidades incluem:
+
+        * Ferramentas: Power BI, Looker, Power Query, Excel, Figma, GA4.
+        * Linguagens de Programação: Python, SQL, DAX.
+        * Python: Criação de bots de automação, técnicas CRUD para gestão e manipulação de dados.
+        * Análise de Dados: Desenvolvimento de dashboards e relatórios avançados.
+        * Otimização de Processos: Implementação de soluções logísticas eficientes e automação de processos.
+
+        Busco sempre criar soluções inovadoras e transformar dados em decisões estratégicas, contribuindo para o sucesso das organizações.""")
 
