@@ -29,7 +29,7 @@ def pagina_inicial():
 
         Minhas habilidades incluem:
 
-        * Ferramentas: Power BI, Looker, Power Query, Excel, Figma, GA4.
+        * Ferramentas: Power BI, Looker, Power Query, Excel, Figma, GA4, BigQuery.
         * Linguagens de Programação: Python, SQL, DAX.
         * Python: Criação de bots de automação, técnicas CRUD para gestão e manipulação de dados.
         * Análise de Dados: Desenvolvimento de dashboards e relatórios avançados.
