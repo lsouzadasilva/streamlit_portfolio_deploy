@@ -79,7 +79,7 @@ def bi():
         
     st.divider()
 
-    st.markdown("**Criados para análise interna na Indecx.**")
+    st.markdown("**Criados para análise interna.**")
 
     col9, col10 = st.columns(2)
 
