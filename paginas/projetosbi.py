@@ -18,7 +18,6 @@ def bi():
     st.sidebar.markdown("**Informações de contato.**")
 
     st.sidebar.image("image/in.png", width=30)
-
     st.sidebar.link_button("linkedin.",
                "https://www.linkedin.com/in/leandro-souza-313136190?original_referer=")
 
