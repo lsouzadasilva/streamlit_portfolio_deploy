@@ -12,7 +12,7 @@ def bi():
     image_path_byd = "image/BYD.png"
     image_path_localiza = "image/localiza.png"
     image_path_zelo = "image/zelo.png"
-    image_path_indecx = "image/indecx.png"
+    image_path_indecx = "image/acme.webp"
     
 
     st.sidebar.markdown("**Informações de contato.**")
