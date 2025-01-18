@@ -11,7 +11,7 @@ def pagina_inicial():
     st.sidebar.image("image/in.png", width=30)
 
     st.sidebar.link_button("linkedin.",
-               "https://www.linkedin.com/in/leandro-souza-313136190?original_referer=")
+               "https://br.linkedin.com/in/leandro-souza-313136190")
 
     st.sidebar.image("image/wh.png", width=30)
     st.sidebar.link_button("Whatsapp.",
