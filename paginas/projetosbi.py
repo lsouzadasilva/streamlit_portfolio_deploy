@@ -49,7 +49,7 @@ def bi():
     with col4:
         st.image(image_path_tb, caption="Tribanco(NPS/CSAT)", width=200)
         st.link_button("Acesse",
-                    "https://app.powerbi.com/view?r=eyJrIjoiYzgyNTJlMTAtOWY2NS00YmM5LWE5NzgtZGQ0YjZmY2U1NjVmIiwidCI6IjFmMzAxZGU1LWQ1OGEtNDQyYy1hMjgyLTgwYTFhOTkzZjA0NCJ9")
+                    "https://app.powerbi.com/view?r=eyJrIjoiNjAxYjIxYjktMjczOC00NWRiLWI2NjQtNmEzNGVmMzM1NmEyIiwidCI6IjFmMzAxZGU1LWQ1OGEtNDQyYy1hMjgyLTgwYTFhOTkzZjA0NCJ9")
 
     st.divider()
 
