@@ -86,7 +86,7 @@ def bi():
     with col9:
         st.image(image_path_fic, caption="Nome do projeto ou empresa", width=200)
         st.link_button("Acesse",
-                    "https://app.powerbi.com/view?r=eyJrIjoiMmY5YzdhOGEtZDY0ZC00MmMwLTk1ODAtMjY1ZmRjYTZlNDJiIiwidCI6IjFmMzAxZGU1LWQ1OGEtNDQyYy1hMjgyLTgwYTFhOTkzZjA0NCJ9")
+                    "https://app.powerbi.com/view?r=eyJrIjoiY2I0NmI1MTMtMDRjZi00NTY0LThjMmYtYjk4OWUwNjMwYmYxIiwidCI6IjFmMzAxZGU1LWQ1OGEtNDQyYy1hMjgyLTgwYTFhOTkzZjA0NCJ9")
 
     with col10:
         st.image(image_path_fic, caption="Nome do projeto ou empresa", width=200)
