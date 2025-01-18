@@ -86,7 +86,7 @@ def bi():
     with col9:
         st.image(image_path_indecx, caption="Monitoramento de veiculos eletricos", width=200)
         st.link_button("Acesse",
-                    "https://app.powerbi.com/view?r=eyJrIjoiMmY5YzdhOGEtZDY0ZC00MmMwLTk1ODAtMjY1ZmRjYTZlNDJiIiwidCI6IjFmMzAxZGU1LWQ1OGEtNDQyYy1hMjgyLTgwYTFhOTkzZjA0NCJ9")
+                    "https://app.powerbi.com/view?r=eyJrIjoiMDY3Yzc5NTAtOGM1Zi00MzI4LTlmZTUtOGRlNWViYmRmYWViIiwidCI6IjFmMzAxZGU1LWQ1OGEtNDQyYy1hMjgyLTgwYTFhOTkzZjA0NCJ9")
 
     with col10:
         st.image(image_path_indecx, caption="Relatorio de entregas", width=200)
