@@ -20,7 +20,7 @@ def bi():
 
     st.sidebar.image("image/in.png", width=30)
     st.sidebar.link_button("linkedin.",
-                        "https://br.linkedin.com/in/leandro-souza-313136190?original_referer=https%3A%2F%2Fwww.google.com%2F")
+                        "https://br.linkedin.com/in/leandro-souza-313136190")
 
     st.sidebar.image("image/wh.png", width=30)
     st.sidebar.link_button("Whatsapp.",
