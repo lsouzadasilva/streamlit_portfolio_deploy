@@ -23,6 +23,6 @@ def streamlit():
     col13, = st.columns(1)
 
     with col13:
-        st.image(image_path_fic, caption="Relatorio de Faturamento", width=200)
+        st.image(image_path_plotly_strem, caption="Relatorio de Faturamento", width=200)
         st.link_button("Acesse", 
                        "https://dashapp-test.streamlit.app/")
