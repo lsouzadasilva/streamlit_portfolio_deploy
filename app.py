@@ -5,6 +5,7 @@ from yaml.loader import SafeLoader
 from paginas.sobre import pagina_inicial
 from paginas.projetosbi import bi
 from paginas.streamlit import streamlit
+from paginas.chatbot import chatbot
 
 
 st.set_page_config(
@@ -32,13 +33,15 @@ if st.session_state["authentication_status"]:
     authenticator.logout()
     st.sidebar.title("Navegação")
     st.sidebar.write(f'Bem Vindo *{st.session_state["name"]}*')
-    paginas = st.sidebar.selectbox("Selecione a página", ["Sobre", "Projetos em Power BI", "Projetos em Streamlit & Plotly"])
+    paginas = st.sidebar.selectbox("Selecione a página", ["Sobre", "Projetos em Power BI", "Projetos em Streamlit & Plotly", "Chat bot"])
     if paginas == "Sobre":
         pagina_inicial()
     elif paginas == "Projetos em Power BI":
         bi()
     elif paginas == "Projetos em Streamlit & Plotly":
         streamlit()
+    elif paginas == "Chat bot":
+        chatbot()
 
 
 elif st.session_state["authentication_status"] is False:
