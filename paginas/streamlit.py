@@ -29,6 +29,6 @@ def streamlit():
                        "https://dashapp-test.streamlit.app/")
 
     with col14:
-        st.image(image_path_fifa, caption="Fifa Oficial Dataset")
+        st.image(image_path_fifa, caption="Fifa Oficial Dataset", width=200)
         st.link_button("Acesse",
                        "https://appfifaproject.streamlit.app/")
