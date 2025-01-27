@@ -2,3 +2,4 @@ streamlit
 PyYAML
 streamlit_authenticator
 openai
+plotly
