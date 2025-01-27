@@ -6,7 +6,7 @@ def streamlit():
 
     st.header("Relatorio em Streamlit & Plotly 📊", divider=True)
 
-    image_path_fic = "image/fic.png"
+    image_path_plotly_strem = "image/stremlit_plotly.png"
 
 
     st.sidebar.markdown("**Informações de contato.**")
