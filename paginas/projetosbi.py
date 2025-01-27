@@ -14,7 +14,7 @@ def bi():
     image_path_zelo = "image/zelo.png"
     image_path_indecx = "image/indecx.png"
     image_path_fic = "image/fic.png"
-    iamge_path_phone = "image\phone.jpg"
+    iamge_path_phone = "image/phone.jpg"
     
 
     st.sidebar.markdown("**Informações de contato.**")
