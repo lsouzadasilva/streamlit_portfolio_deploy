@@ -31,10 +31,10 @@ if st.session_state["authentication_status"]:
     authenticator.logout()
     st.sidebar.title("Navegação")
     st.sidebar.write(f'Bem Vindo *{st.session_state["name"]}*')
-    paginas = st.sidebar.selectbox("Selecione a página", ["Sobre", "Projetos BI"])
+    paginas = st.sidebar.selectbox("Selecione a página", ["Sobre", "Projetos em Power BI"])
     if paginas == "Sobre":
         pagina_inicial()
-    elif paginas == "Projetos BI":
+    elif paginas == "Projetos em Power BI":
         bi()
 
 elif st.session_state["authentication_status"] is False:
