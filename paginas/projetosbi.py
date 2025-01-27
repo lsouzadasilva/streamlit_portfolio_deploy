@@ -92,3 +92,14 @@ def bi():
         st.image(image_path_indecx, caption="Relatorio de entregas", width=200)
         st.link_button("Acesse",
                     "https://app.powerbi.com/view?r=eyJrIjoiMTk1NzI4ZDAtNjljYS00ZTllLWI0MzMtYWNiMjcwN2E5ZWYxIiwidCI6IjFmMzAxZGU1LWQ1OGEtNDQyYy1hMjgyLTgwYTFhOTkzZjA0NCJ9")
+        
+
+    st.divider()
+
+
+    col11, =st.columns(1)
+
+    with col11:
+        st.image(image_path_fic, caption="Análise de cobrança", width=200)
+        st.link_button("Acesse",
+                       "https://app.powerbi.com/reportEmbed?reportId=650ed897-b2b7-4279-b91d-3f361399924e&autoAuth=true&ctid=1f301de5-d58a-442c-a282-80a1a993f044")
