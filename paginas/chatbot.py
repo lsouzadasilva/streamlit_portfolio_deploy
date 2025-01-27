@@ -3,7 +3,7 @@ import streamlit as st
 def chatbot():
 
 
-    st.header("Relatorio em Streamlit & Plotly 📊", divider=True)
+    st.header("🤖J.A.R.V.I.S", divider=True)
 
     image_path_plotly_strem = "image/stremlit_plotly.png"
     image_path_fifa = "image/stremlit.png"
@@ -24,9 +24,7 @@ def chatbot():
 
 
     with col15:
-        st.image(image_path_fifa, caption="Chat bot", width=200)
+        st.image(image_path_fifa, caption="Chat Bot", width=200)
         st.link_button("Acesse",
                        "https://sreamlitopenai.streamlit.app/") 
-        
-        
         
