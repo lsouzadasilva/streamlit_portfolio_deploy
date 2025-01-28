@@ -24,7 +24,7 @@ def chatbot():
 
 
     with col15:
-        st.image(image_path_fifa, caption="Chat Bot", width=200)
+        st.image(image_path_fifa, caption="Chat Bot com OpenAI", width=200)
         st.link_button("Acesse",
                        "https://sreamlitopenai.streamlit.app/") 
         
