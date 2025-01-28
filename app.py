@@ -6,6 +6,7 @@ from paginas.sobre import pagina_inicial
 from paginas.projetosbi import bi
 from paginas.streamlit import streamlit
 from paginas.chatbot import chatbot
+from paginas.chatbot_huggingface import chatbot_huggingface
 
 
 st.set_page_config(
@@ -33,7 +34,7 @@ if st.session_state["authentication_status"]:
     authenticator.logout()
     st.sidebar.title("Navegação")
     st.sidebar.write(f'Bem Vindo *{st.session_state["name"]}*')
-    paginas = st.sidebar.selectbox("Selecione a página", ["Sobre", "Projetos em Power BI", "Projetos em Streamlit & Plotly", "Chat Bot com OpenAI"])
+    paginas = st.sidebar.selectbox("Selecione a página", ["Sobre", "Projetos em Power BI", "Projetos em Streamlit & Plotly", "Chat Bot com OpenAI", "Chat Bot com huggingface"])
     if paginas == "Sobre":
         pagina_inicial()
     elif paginas == "Projetos em Power BI":
@@ -42,6 +43,8 @@ if st.session_state["authentication_status"]:
         streamlit()
     elif paginas == "Chat Bot com OpenAI":
         chatbot()
+    elif paginas == "Chat Bot com huggingface":
+        chatbot_huggingface()
 
 
 elif st.session_state["authentication_status"] is False:
