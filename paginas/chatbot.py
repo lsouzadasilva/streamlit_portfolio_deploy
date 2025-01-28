@@ -5,8 +5,8 @@ def chatbot():
 
     st.header("🤖J.A.R.V.I.S", divider=True)
 
-    image_path_plotly_strem = "image/stremlit_plotly.png"
-    image_path_fifa = "image/stremlit.png"
+
+    image_path_openai= "image/stremlit.png"
 
 
     st.sidebar.markdown("**Informações de contato.**")
@@ -20,11 +20,16 @@ def chatbot():
                        "https://wa.me/19994138086")
     
 
-    col15, = st.columns(1)
+    col15, col16 = st.columns(2)
 
 
     with col15:
-        st.image(image_path_fifa, caption="Chat Bot com OpenAI", width=200)
+        st.image(image_path_openai, caption="Chat Bot com OpenAI", width=200)
         st.link_button("Acesse",
                        "https://sreamlitopenai.streamlit.app/") 
+    
+    with col16:
+        st.image(image_path_openai, caption= "Transcrição de audio e video (MP3, MP4)", width=200)
+        st.link_button("Acesse",
+                       "https://transcriptprojet.streamlit.app/")
         
