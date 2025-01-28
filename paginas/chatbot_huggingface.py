@@ -3,7 +3,7 @@ import streamlit as st
 
 def chatbot_huggingface():
 
-    st.header("Chat Bot com huggingface 🤗", divider=True)
+    st.header("huggingface 🤗", divider=True)
 
 
     image_path_huggingface = "image/huggieface.png"
@@ -21,10 +21,10 @@ def chatbot_huggingface():
     
 
 
-    col15, = st.columns(1)
+    col17, = st.columns(1)
 
 
-    with col15:
+    with col17:
         st.image(image_path_huggingface, caption="Chat Bot com Huggingface", width=200)
         st.link_button("Acesse",
                  "https://huggingface.co/spaces/lsouzadasilva/space-teste")
