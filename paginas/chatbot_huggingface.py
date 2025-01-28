@@ -26,6 +26,6 @@ def chatbot_huggingface():
 
 
     with col15:
-        st.image(caption="Chat Bot com Huggingface")
+        st.image(image_path_fifa,caption="Chat Bot com Huggingface")
         st.link_button("Acesse",
                  "https://huggingface.co/spaces/lsouzadasilva/space-teste")
