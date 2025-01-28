@@ -34,16 +34,16 @@ if st.session_state["authentication_status"]:
     authenticator.logout()
     st.sidebar.title("Navegação")
     st.sidebar.write(f'Bem Vindo *{st.session_state["name"]}*')
-    paginas = st.sidebar.selectbox("Selecione a página", ["Sobre", "Projetos em Power BI", "Projetos em Streamlit & Plotly", "Chat Bot com OpenAI", "Chat Bot com huggingface"])
+    paginas = st.sidebar.selectbox("Selecione a página", ["Sobre", "Projetos em Power BI", "Projetos em Streamlit & Plotly", "Projetos com OpenAI", "Projetos huggingface"])
     if paginas == "Sobre":
         pagina_inicial()
     elif paginas == "Projetos em Power BI":
         bi()
     elif paginas == "Projetos em Streamlit & Plotly":
         streamlit()
-    elif paginas == "Chat Bot com OpenAI":
+    elif paginas == "Projetos com OpenAI":
         chatbot()
-    elif paginas == "Chat Bot com huggingface":
+    elif paginas == "Projetos huggingface":
         chatbot_huggingface()
 
 
