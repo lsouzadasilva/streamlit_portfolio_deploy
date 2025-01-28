@@ -6,8 +6,7 @@ def chatbot_huggingface():
     st.header("Chat Bot com huggingface 🤗", divider=True)
 
 
-    image_path_plotly_strem = "image/stremlit_plotly.png"
-    image_path_fifa = "image/stremlit.png"
+    image_path_huggingface = "image/huggieface.png"
 
 
     st.sidebar.markdown("**Informações de contato.**")
