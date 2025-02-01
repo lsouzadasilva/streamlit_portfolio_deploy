@@ -20,7 +20,7 @@ def chatbot():
                        "https://wa.me/19994138086")
     
 
-    col15, col16, col17 = st.columns(2)
+    col15, col16, col17 = st.columns(3)
 
 
     with col15:
