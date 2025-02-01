@@ -20,7 +20,7 @@ def chatbot():
                        "https://wa.me/19994138086")
     
 
-    col15, col16 = st.columns(2)
+    col15, col16, col17 = st.columns(2)
 
 
     with col15:
@@ -32,4 +32,9 @@ def chatbot():
         st.image(image_path_openai, caption= "Transcrição de audio e video (MP3, MP4)", width=200)
         st.link_button("Acesse",
                        "https://transcriptprojet.streamlit.app/")
+        
+    with col17:
+        st.image(image_path_openai, caption="Assistants com OpenAI", width=200)
+        st.link_button("Acesse",
+                 "https://appapiopenaiassistants.streamlit.app/")
         
