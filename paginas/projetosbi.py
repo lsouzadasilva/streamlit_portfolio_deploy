@@ -30,5 +30,5 @@ def bi():
     with col2:
         st.image(image_path_eletric, caption="Monitoramento Veiculos Eletricos", width=200)
         st.link_button("Acesse.",
-                       "https://app.powerbi.com/reportEmbed?reportId=2fbc49d7-9488-4f99-812a-2c8b4bcacef0&autoAuth=true&ctid=1f301de5-d58a-442c-a282-80a1a993f044")
+                       "https://app.powerbi.com/view?r=eyJrIjoiZmJkMjEwMmEtNGNlZS00ODI2LWIyYjktMTlmYTM1M2JjM2YxIiwidCI6IjFmMzAxZGU1LWQ1OGEtNDQyYy1hMjgyLTgwYTFhOTkzZjA0NCJ9")
 
