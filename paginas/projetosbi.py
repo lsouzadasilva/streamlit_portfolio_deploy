@@ -5,6 +5,7 @@ def bi():
     st.header('Relatórios Power BI 📶', divider=True)
 
     iamge_path_phone = "image/phone.png"
+    image_path_eletric = "image/eletric.png"
     
 
     # st.sidebar.markdown("**Informações de contato.**")
@@ -19,10 +20,14 @@ def bi():
 
 
 
-    col1, = st.columns(1)
+    col1, col2 = st.columns(2)
 
     with col1:
         st.image(iamge_path_phone, caption="Análise de cobrança", width=200)
         st.link_button("Acesse",
                     "https://app.powerbi.com/reportEmbed?reportId=ee62c9c1-2df8-448d-bc1e-f922a18848d8&autoAuth=true&ctid=1f301de5-d58a-442c-a282-80a1a993f044")
+        
+        st.image(image_path_eletric, caption="Monitoramento Veiculos Eletricos", width=200)
+        st.link_button("Acesse.",
+                       "https://app.powerbi.com/reportEmbed?reportId=2fbc49d7-9488-4f99-812a-2c8b4bcacef0&autoAuth=true&ctid=1f301de5-d58a-442c-a282-80a1a993f044")
 
