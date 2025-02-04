@@ -72,7 +72,7 @@ if st.session_state["authentication_status"]:
 
 
 elif st.session_state["authentication_status"] is False:
-    st.error('Usuário/Senha is inválido')
+    st.error('Usuário/Senha inválido')
 elif st.session_state["authentication_status"] is None:
     st.warning('Por Favor, utilize seu usuário e senha!')
 
