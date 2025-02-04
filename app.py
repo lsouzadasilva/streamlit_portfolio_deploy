@@ -38,9 +38,11 @@ if st.session_state["authentication_status"]:
     st.sidebar.write(f'Bem Vindo *{st.session_state["name"]}*')
     
     if st.sidebar.button("Logout"):
-        st.session_state["authentication_status"] = False 
-        st.session_state["name"] = ""  
-        authenticator.logout()
+        authenticator.logout()  # Chama o logout se o usuário estiver autenticado
+        # Opcional: Resetar o estado de autenticação
+        st.session_state["authentication_status"] = False
+        st.session_state["name"] = ""
+        st.sidebar.write("Você foi deslogado com sucesso.")
         
     st.sidebar.divider()
 
