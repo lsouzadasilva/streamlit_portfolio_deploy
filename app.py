@@ -33,18 +33,12 @@ authenticator = stauth.Authenticate(
 authenticator.login()
 
 if st.session_state["authentication_status"]:
-    # authenticator.logout()
+    authenticator.logout()
     st.sidebar.title("Navegação")
     st.sidebar.write(f'Bem Vindo *{st.session_state["name"]}*')
     
-    if st.sidebar.button("Logout"):
-        # Chama o logout apenas quando o botão for pressionado
-        authenticator.logout()  # O logout é feito aqui, sem ser chamado diretamente após a autenticação
-        st.session_state["authentication_status"] = False  # Resetar o status de autenticação
-        st.session_state["name"] = ""  # Limpar o nome do usuário
-        st.sidebar.write("Você foi deslogado com sucesso.") 
-        
     st.sidebar.divider()
+
         
 
     # if st.session_state["authentication_status"]: #  < - Antes
