@@ -9,15 +9,15 @@ def chatbot_huggingface():
     image_path_huggingface = "image/huggieface.png"
 
 
-    st.sidebar.markdown("**Informações de contato.**")
+    # st.sidebar.markdown("**Informações de contato.**")
 
-    st.sidebar.image("image/in.png", width=30)
-    st.sidebar.link_button("linkedin.",
-                        "https://www.linkedin.com/in/leandro-souza-313136190?original_referer=")
+    # st.sidebar.image("image/in.png", width=30)
+    # st.sidebar.link_button("linkedin.",
+    #                     "https://www.linkedin.com/in/leandro-souza-313136190?original_referer=")
 
-    st.sidebar.image("image/wh.png", width=30)
-    st.sidebar.link_button("Whatsapp.",
-                       "https://wa.me/19994138086")
+    # st.sidebar.image("image/wh.png", width=30)
+    # st.sidebar.link_button("Whatsapp.",
+    #                    "https://wa.me/19994138086")
     
 
 
