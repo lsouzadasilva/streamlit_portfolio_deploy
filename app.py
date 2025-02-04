@@ -13,7 +13,7 @@ from streamlit_option_menu import option_menu
 
 st.set_page_config(
     page_title='Home',
-    page_icon='house',
+    page_icon='cup-hot-fill',
     layout='wide'
 )
 
