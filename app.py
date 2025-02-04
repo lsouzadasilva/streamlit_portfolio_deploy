@@ -36,8 +36,12 @@ if st.session_state["authentication_status"]:
     # authenticator.logout()
     st.sidebar.title("Navegação")
     st.sidebar.write(f'Bem Vindo *{st.session_state["name"]}*')
+    
     if st.sidebar.button("Logout"):
-        st.sidebar.authenticator.logout()
+        st.session_state["authentication_status"] = False 
+        st.session_state["name"] = ""  
+        authenticator.logout()
+        
     st.sidebar.divider()
 
 
