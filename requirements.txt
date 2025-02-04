@@ -3,3 +3,4 @@ PyYAML
 streamlit_authenticator
 openai
 plotly
+streamlit_option_menu
