@@ -38,11 +38,12 @@ def pagina_inicial():
 
     st.markdown("**Informações de contato.**")
 
-    #col1, col2 = st.columns(2)
-    
+    col1, col2 = st.columns(2)
+
+    icon_unicode = "\uf472"
 
     st.image("image/in.png", width=40)
-    st.link_button("'U+F472'Acesse.",
+    st.link_button(f"{icon_unicode} Acesse.",
                "https://br.linkedin.com/in/leandro-souza-313136190")
 
     st.image("image/wh.png", width=40)
