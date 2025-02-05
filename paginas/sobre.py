@@ -38,7 +38,7 @@ def pagina_inicial():
 
     st.markdown("**Informações de contato.**")
 
-    col1, col2 = st.columns(2)
+    #col1, col2 = st.columns(2)
     
 
     col1.image("image/in.png", width=40)
