@@ -40,7 +40,7 @@ def pagina_inicial():
 
     col1, col2 = st.columns(2)
 
-    icon_unicode = "\uf472"
+    icon_unicode = "bi bi-linkedin"
 
     st.image("image/in.png", width=40)
     st.link_button(f"{icon_unicode} Acesse.",
