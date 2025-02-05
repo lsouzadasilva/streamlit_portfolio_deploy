@@ -41,11 +41,11 @@ def pagina_inicial():
     #col1, col2 = st.columns(2)
     
 
-    col1.image("image/in.png", width=40)
-    col1.link_button("Acesse.",
+    st.image("image/in.png", width=40)
+    st.link_button("Acesse.",
                "https://br.linkedin.com/in/leandro-souza-313136190")
 
-    col2.image("image/wh.png", width=40)
-    col2.link_button("Acesse.",
+    st.image("image/wh.png", width=40)
+    st.link_button("Acesse.",
                        "https://wa.me/19994138086")
 
