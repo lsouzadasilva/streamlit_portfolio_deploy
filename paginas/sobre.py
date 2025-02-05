@@ -42,7 +42,7 @@ def pagina_inicial():
     
 
     st.image("image/in.png", width=40)
-    st.link_button("Acesse.",
+    st.link_button("'U+F472'Acesse.",
                "https://br.linkedin.com/in/leandro-souza-313136190")
 
     st.image("image/wh.png", width=40)
