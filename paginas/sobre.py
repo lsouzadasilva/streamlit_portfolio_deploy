@@ -40,13 +40,11 @@ def pagina_inicial():
 
     col1, col2 = st.columns(2)
 
-    icon_unicode = "bi bi-linkedin"
-
-    st.image("image/in.png", width=40)
-    st.link_button(f"{icon_unicode} Acesse.",
+    col1.image("image/in.png", width=40)
+    col1.link_button("Acesse.",
                "https://br.linkedin.com/in/leandro-souza-313136190")
 
-    st.image("image/wh.png", width=40)
-    st.link_button("Acesse.",
+    col2.image("image/wh.png", width=40)
+    col2.link_button("Acesse.",
                        "https://wa.me/19994138086")
 
