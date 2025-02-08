@@ -60,8 +60,8 @@ if st.session_state["authentication_status"]:
     )
 
 
-st.sidebar.divider()
-st.sidebar.markdown("Desenvolvido por [Leandro Souza](https://br.linkedin.com/in/leandro-souza-313136190)")
+    st.sidebar.divider()
+    st.sidebar.markdown("Desenvolvido por [Leandro Souza](https://br.linkedin.com/in/leandro-souza-313136190)")
 
 
     if paginas == "Sobre":
