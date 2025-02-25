@@ -28,10 +28,10 @@ def pagina_inicial():
 
         * Ferramentas: Power BI, Looker, Power Query, Excel, Figma, GA4, BigQuery.
         * Linguagens de Programação: Python, SQL, DAX.
-        * Python: Criação de bots de automação, técnicas CRUD para gestão e manipulação de dados.
+        * Python: Criação de bots de automação, técnicas CRUD para gestão e manipulação de dados, e criação de web apps com Streamlit.
         * Análise de Dados: Desenvolvimento de dashboards e relatórios avançados.
         * Otimização de Processos: Implementação de soluções logísticas eficientes e automação de processos.
-
+        
         Busco sempre criar soluções inovadoras e transformar dados em decisões estratégicas, contribuindo para o sucesso das organizações.""")
     
     st.divider()
