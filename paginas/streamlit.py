@@ -39,6 +39,6 @@ def streamlit():
                        "https://appfifaproject.streamlit.app/")
         
     with col16:
-        st.image(image_path_plotly_strem, caption="Relatorio de analise veicular de eletricos 2023", width=200)
+        st.image(image_path_plotly_strem, caption="Relatório de análise veicular de elétricos 2023", width=200)
         st.link_button("Acesse",
                        "https://appdashveiculareletricos.streamlit.app/")
