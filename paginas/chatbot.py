@@ -6,7 +6,7 @@ def chatbot():
     st.header("🤖J.A.R.V.I.S", divider=True)
 
 
-    image_path_openai= "image/stremlit.png"
+    image_path_openai= "image/stremlit_openai.png"
 
 
     # st.sidebar.markdown("**Informações de contato.**")
