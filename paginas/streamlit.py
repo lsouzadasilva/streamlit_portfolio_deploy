@@ -7,7 +7,7 @@ def streamlit():
     st.header("Relatorio em Streamlit & Plotly 📊", divider=True)
 
     image_path_plotly_strem = "image/stremlit_plotly_pandas.png"
-    image_path_fifa = "image/stremlit.png"
+    image_path_fifa = "image/stremlit_openai.png"
 
 
     # st.sidebar.markdown("**Informações de contato.**")
