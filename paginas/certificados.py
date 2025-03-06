@@ -31,6 +31,8 @@ def certificados_skills():
                 
                 - 📚 **Treinamento de Modelos de IA:** Construção e avaliação de modelos de **machine learning** com **Scikit-learn** — incluindo treinamento supervisionado usando bases de treino e teste.
                 
+                - 🌐 **WebApps com Streamlit:** Desenvolvimento de aplicações web interativas e intuitivas para visualização de dados e modelos de IA.
+                
                 - 🧠 **Inteligência Artificial e IA Generativa:**  
                    * 🤖 Criação de agentes inteligentes e assistentes virtuais utilizando **ChatGPT**.  
                    * 🛠️ Desenvolvimento de bots de IA utilizando modelos gratuitos da **Hugging Face**.
