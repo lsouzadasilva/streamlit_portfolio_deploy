@@ -21,7 +21,7 @@ def streamlit():
     #                    "https://wa.me/19994138086")
     
 
-    col13, col14, col15 = st.columns(3)
+    col13, col14, col15, col16 = st.columns(4)
 
     with col13:
         st.image(image_path_plotly_strem, caption="Relatorio de Faturamento", width=200)
@@ -37,3 +37,8 @@ def streamlit():
         st.image(image_path_fifa, caption="Fifa Oficial Dataset", width=200)
         st.link_button("Acesse",
                        "https://appfifaproject.streamlit.app/")
+        
+    with col16:
+        st.image(image_path_plotly_strem, caption="Relatorio de analise veicular de eletricos 2023", width=200)
+        st.link_button("Acesse",
+                       "https://appdashveiculareletricos.streamlit.app/")
