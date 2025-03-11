@@ -61,7 +61,7 @@ if st.session_state["authentication_status"]:
     with st.sidebar:
         paginas = option_menu(
         menu_title = "Menu",
-        options = ["Sobre", "Projetos em Power BI", "Projetos em Streamlit & Plotly", "Projetos OpenAI", "Projetos huggingface", "Certificados & Skills"],
+        options = ["Sobre min", "Projetos em Power BI", "Projetos em Streamlit & Plotly", "Projetos OpenAI", "Projetos huggingface", "Certificados & Skills"],
         icons = ["envelope-at-fill", "bar-chart-fill", "graph-up-arrow", "robot", "emoji-wink-fill", "award"],
         menu_icon ="cast",
         default_index = 0
@@ -73,7 +73,7 @@ if st.session_state["authentication_status"]:
     st.sidebar.markdown("Desenvolvido por [Leandro Souza](https://br.linkedin.com/in/leandro-souza-313136190)")
 
 
-    if paginas == "Sobre":
+    if paginas == "Sobre min":
         pagina_inicial()
     elif paginas == "Projetos em Power BI":
         bi()
