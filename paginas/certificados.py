@@ -32,6 +32,9 @@ def certificados_skills():
                 - 📚 **Treinamento de Modelos de IA:** Construção e avaliação de modelos de **machine learning** com **Scikit-learn** — incluindo treinamento supervisionado usando bases de treino e teste.
                 
                 - 🌐 **WebApps com Streamlit:** Desenvolvimento de aplicações web interativas e intuitivas para **visualização de dados e modelos de IA**.
+
+                - 📥 **RAG (Retrieval-Augmented Generation)** Implementação da técnica RAG para integrar bases internas de conhecimento a modelos de IA como ChatOpenAI, permitindo que os assistentes virtuais acessem 
+                        informações específicas e forneçam respostas mais personalizadas e assertivas.
                 
                 - 🧠 **Inteligência Artificial e IA Generativa:**  
                    * 🤖 Criação de agentes inteligentes e assistentes virtuais utilizando **ChatGPT**.  
