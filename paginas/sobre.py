@@ -19,20 +19,37 @@ def pagina_inicial():
 
     st.markdown(
         """ 
-        Especialista em Análise de Dados e Soluções Logísticas.
-        Tenho sólida experiência em transformar dados em insights estratégicos e criar soluções que otimizam processos logísticos e análises de dados. Na Mobly, desenvolvi e implementei melhorias nos processos de inventário e controle de estoque, resultando em maior eficiência operacional. Já na Indecx, criei relatórios detalhados e análises mercadológicas de veículos comerciais e leves para clientes como Localiza, Mercedes-Benz, Movida,Unidas, LM Transportes, VW, BYD, Addiante Locação e outros, além de estruturar métricas de NPS e CSAT para o Tribanco, impulsionando decisões baseadas em dados.
+        Especialista em Análise de Dados e Soluções Logísticas
 
-        Atualmente, atuo na Hagens, onde sou responsável pela coleta, análise e visualização de dados, utilizando ferramentas como Power BI e Looker, gerando insights acionáveis que suportam decisões estratégicas.
-
-        Minhas habilidades incluem:
-
-        * Ferramentas: Power BI, Looker, Power Query, Excel, Figma, GA4, BigQuery.
-        * Linguagens de Programação: Python, SQL, DAX.
-        * Python: Criação de bots de automação, técnicas CRUD para gestão e manipulação de dados, e criação de Web e Apps com Streamlit.
-        * Análise de Dados: Desenvolvimento de dashboards e relatórios avançados.
-        * Otimização de Processos: Implementação de soluções logísticas eficientes e automação de processos.
+        Sou apaixonado por transformar dados em insights estratégicos e criar soluções que otimizam 
+        processos logísticos e análises de dados.
         
-        Busco sempre criar soluções inovadoras e transformar dados em decisões estratégicas, contribuindo para o sucesso das organizações.""")
+        Na Mobly, desenvolvi e implementei melhorias nos processos de inventário e controle de 
+        estoque, aumentando a eficiência operacional. Já na Indecx, elaborei relatórios detalhados e 
+        análises mercadológicas de veículos comerciais e leves para clientes como Localiza, Mercedes-Benz, 
+        Movida, Unidas, LM Transportes, VW, BYD, Addiante Locação e outros. Além disso, 
+        estruturei métricas de NPS e CSAT para o Tribanco, orientando decisões baseadas em dados.
+        
+        Mais recentemente, atuei na Hagens em um contrato temporário, sendo responsável pela 
+        coleta, análise e visualização de dados, utilizando ferramentas como Power BI e Looker para 
+        gerar insights acionáveis e apoiar estratégias empresariais.
+        
+        💡 Minhas principais habilidades incluem:
+        
+        * Ferramentas: Power BI, Looker, Power Query, Excel, Figma, GA4, BigQuery.
+        
+        * Linguagens de Programação: Python, SQL, DAX.
+        
+        * Python: Automação com bots, técnicas CRUD para gestão de dados, criação de Web e Apps com Streamlit.
+        
+        * IA e Machine Learning: Implementação da técnica RAG (Retrieval-Augmented Generation) para assistentes de IA, como o ChatOpenAI.
+        
+        * Análise de Dados: Desenvolvimento de dashboards interativos e relatórios avançados.
+        
+        * Otimização de Processos: Criação de bots de automações de processos.
+        
+        Estou sempre em busca de criar soluções inovadoras, traduzindo dados em decisões 
+        estratégicas e contribuindo para o crescimento sustentável das organizações.""")
     
     st.divider()
 
