@@ -13,7 +13,7 @@ from paginas.machine_learnig import machine
 
 
 st.set_page_config(
-    page_title='Home',
+    page_title='Portfólio',
     page_icon= '⚡',
     layout='wide'
 )
