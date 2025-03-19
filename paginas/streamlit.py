@@ -42,3 +42,12 @@ def streamlit():
         st.image(image_path_plotly_strem, caption="Relatório de Análise de Veículos Elétricos — 2023", width=200)
         st.link_button("Acesse",
                        "https://appdashveiculareletricos.streamlit.app/")
+        
+    st.divider()
+        
+    col17, = st.columns(1)
+    
+    with col17:
+        st.image(image_path_fifa, caption="Gerador de Dados Fake", width=200)
+        st.link_button("Acesse",
+                       "https://manager-data-fake.streamlit.app/")
