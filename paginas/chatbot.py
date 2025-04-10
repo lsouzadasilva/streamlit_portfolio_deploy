@@ -37,4 +37,9 @@ def chatbot():
         st.image(image_path_openai, caption="Assistants com OpenAI", width=200)
         st.link_button("Acesse",
                  "https://assistant-insight-openai.streamlit.app/")
-        
+
+    
+    with col18:
+        st.image(image_path_openai, caption="Assistente de leitura PDF", width=200)
+        st.link_button("Acesse",
+                       "https://assistants-read-pdf.streamlit.app/")
