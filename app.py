@@ -43,9 +43,9 @@ authenticator = stauth.Authenticate(
 authenticator.login()
 
 if st.session_state["authentication_status"]:
-    authenticator.logout()
     st.sidebar.title("Navegação")
     st.sidebar.write(f'Bem Vindo *{st.session_state["name"]}*')
+    st.sidebar.authenticator.logout()
     
     st.sidebar.divider()
 
