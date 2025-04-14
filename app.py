@@ -71,7 +71,30 @@ if st.session_state["authentication_status"]:
 
 
     st.sidebar.divider()
-    st.sidebar.markdown("Desenvolvido por [Leandro Souza](https://br.linkedin.com/in/leandro-souza-313136190)")
+    st.sidebar.markdown("**Informações de contato.**")
+    col1, col2, col3 = st.sidebar.columns(3)
+    
+    with col1:
+        st.markdown("""
+            <a href="https://github.com/lsouzadasilva" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="50" style="border-radius: 50%; padding: 10px; background-color: white;">
+            </a>
+            """, unsafe_allow_html=True)
+    
+    with col2: 
+        st.markdown("""
+            <a href="https://wa.me/19994138086" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="50" style="border-radius: 50%; padding: 10px; background-color: #25D366;">
+            </a>
+            """, unsafe_allow_html=True)
+    
+    
+    with col3:
+        st.markdown("""
+            <a href="https://www.linkedin.com/in/leandro-souza-bi" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="50" style="border-radius: 50%; padding: 5px; background-color: white; border: 2px solid #0A66C2;">
+            </a>
+            """, unsafe_allow_html=True)
 
 
     if paginas == "Sobre mim":
